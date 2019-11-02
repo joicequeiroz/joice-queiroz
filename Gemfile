@@ -1,0 +1,10 @@
+ source 'http://rubygems.org'
+
+ gem 'capybara'
+ gem 'webdrivers'
+ gem 'cucumber'
+ gem 'faker'
+ gem 'httparty'
+ gem 'tiny_tds'
+ gem 'selenium-webdriver'
+ gem 'site_prism'
