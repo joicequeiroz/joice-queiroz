@@ -79,6 +79,8 @@ Stores
 Utilities
     <blockquote>$ cucumber --tag @utilities</blockquote>
 
+#### After tests are run, results are stored in .. \ joice-queiroz \ log \ report.html
+
 ### Test cases proposed for automation.
 * **Products**
   * Create a new product
@@ -92,12 +94,19 @@ Utilities
   * Delete a products
 * **Stores**
   * Create a stores
+  * Get all Stores
+  * Find stores in Minnesota
+  * Find stores that sell Apple products
+  * Find Stores Within ten Miles of Beverly Hills
   * Search a stores
   * Update a stores
   * Delete a stores
 * **Services**
   * Create a services
   * Search all services
+  * Highest Priced Products
+  * Product Name and Description Only
+  * TVs with free shipping and price between $500 and $800
   * Search a services
   * Update a services
   * Delete a services
@@ -105,6 +114,8 @@ Utilities
   * Create a categories
   * Search all categories
   * Search a categories
+  * Get categories by name
+  * Get categories with TV in the name
   * Update a categories
   * Delete a categories
 * **Utilities**
@@ -117,3 +128,4 @@ Create a new product | The system will be show status code equal "200" | The sys
 Create a stores | The system will be show status code equal "200" | The system has shown status code equal "201" | Major  | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
 Create a services | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
 Create a categories | The system will be show status code equal "200" | The system has shown status code equal "201" | Major
+Get categories by name | The system will be show the categories by name | The system has shown status code equal "500" | **Blocke**

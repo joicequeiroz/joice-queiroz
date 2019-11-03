@@ -11,3 +11,11 @@ Background: Endpoint
    Scenario: Get categories
    When I send the GET verb in the all categories
    Then will be returned status code "200" and a message "OK"
+
+   Scenario: Get categories by name
+   When I send the GET verb in the categories by name
+   Then will be returned status code "200" and a message "OK"
+
+   Scenario: Get categories with TV in the name
+   When I send the GET verb in the categories with TV
+   Then will be returned status code "200" and a message "OK"
