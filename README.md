@@ -128,4 +128,4 @@ Create a new product | The system will be show status code equal "200" | The sys
 Create a stores | The system will be show status code equal "200" | The system has shown status code equal "201" | Major  | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
 Create a services | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
 Create a categories | The system will be show status code equal "200" | The system has shown status code equal "201" | Major
-Get categories by name | The system will be show the categories by name | The system has shown status code equal "500" | **Blocke**
+Get categories by name | The system will be show the categories by name | The system has shown status code equal "500" | **Blocker**

@@ -10,5 +10,3 @@ require "webdrivers"
 
 require_relative "pages_helpers"
 World(Pages)
-
-# CONFIG = YAML.load_file("./config/qa.yml")
