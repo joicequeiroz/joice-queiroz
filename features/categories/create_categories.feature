@@ -1,13 +1,13 @@
 @categories
 Feature: Create Categories
 
-   As an user
+   As a user
    I want to verify the Best Buy API Playground
-   In order to validate the create of categories
+   To validate the creation of categories
 
-Background: Endpoint
-   Given I get endpoint from new categories "/categories"
+   Background: Endpoint
+      Given I get endpoint from new categories "/categories"
 
    Scenario: Create
-   When I send the POST verb in the categories
-   Then will be returned status code "201" and a message "Created"
+      When I send the POST verb in the categories
+      Then will be returned status code "201" and a message "Created"

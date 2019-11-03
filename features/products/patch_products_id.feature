@@ -1,14 +1,14 @@
-@product
+@products
 Feature: Patch Product
 
-   As an user
+   As a user
    I want to verify the Best Buy API Playground
-   In order to validate the update a products
+   To validate the update a products
 
-Background: Endpoint
-   Given I get endpoint from a products "/products"
+   Background: Endpoint
+      Given I get endpoint from a products "/products"
 
-   Scenario: Update a products
-   When I send the PATCH verb to update a product
-   Then will be returned status code "200" and a message "OK"
-   And I will be the data of the product is change
+   Scenario: Update products
+      When I send the PATCH verb to update a product
+      Then will be returned status code "200" and a message "OK"
+      And I will be the data of the product is change

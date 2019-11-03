@@ -88,8 +88,11 @@ Utilities
   * Creating a product with negative values for integer fields
   * Creating a product with negative values for string fields
   * Creating a product without body
-  * Search all products
-  * Search a product 
+  * Research products
+  * Research all products
+  * Highest Priced Products
+  * Product Name and Description Only
+  * TVs with free shipping and price between $500 and $800
   * Update a products
   * Delete a products
 * **Stores**
@@ -103,19 +106,15 @@ Utilities
   * Delete a stores
 * **Services**
   * Create a services
-  * Search all services
-  * Highest Priced Products
-  * Product Name and Description Only
-  * TVs with free shipping and price between $500 and $800
-  * Search a services
+  * Research all services
+  * Research Services per ID
   * Update a services
   * Delete a services
 * **Categories**
   * Create a categories
-  * Search all categories
-  * Search a categories
-  * Get categories by name
-  * Get categories with TV in the name
+  * Research all categories
+  * Research categories by name
+  * Research categories with TV in the name
   * Update a categories
   * Delete a categories
 * **Utilities**
