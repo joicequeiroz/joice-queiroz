@@ -1,4 +1,4 @@
-@categories
+@categories @severity_critical
 Feature: Delete Categories
 
    As a user

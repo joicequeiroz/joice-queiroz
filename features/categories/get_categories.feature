@@ -1,4 +1,4 @@
-@categories
+@categories @severity_major
 Feature: Research All Categories
 
    As a user

@@ -1,4 +1,4 @@
-@services
+@services @severity_critical
 Feature: Update Services
 
    As a user

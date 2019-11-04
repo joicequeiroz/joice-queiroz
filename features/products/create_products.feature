@@ -1,4 +1,4 @@
-@products
+@products @severity_blocker
 Feature: Create Product
 
    As a user

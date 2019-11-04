@@ -1,4 +1,4 @@
-@stores
+@stores @severity_major
 Feature: Research Services per ID
 
    As a user

@@ -1,4 +1,4 @@
-@services
+@services @severity_major
 Feature: Research all Services
 
    As a user

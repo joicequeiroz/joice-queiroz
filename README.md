@@ -79,6 +79,10 @@ Stores
 Utilities
     <blockquote>$ cucumber --tag @utilities</blockquote>
 
+#### Run tests cases with blocker severity
+```text
+$ cucumber --tag @severity_blocker
+```
 #### After tests are run, results are stored in .. \ joice-queiroz \ log \ report.html
 
 ### Test cases proposed for automation.

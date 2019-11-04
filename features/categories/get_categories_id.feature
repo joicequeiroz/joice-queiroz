@@ -1,4 +1,4 @@
-@categories
+@categories @severity_major
 Feature: Research Categories per ID
 
    As a user

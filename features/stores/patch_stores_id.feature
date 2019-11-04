@@ -1,4 +1,4 @@
-@stores
+@stores @severity_critical
 Feature: Patch Stores
 
    As a user

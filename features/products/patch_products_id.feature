@@ -1,4 +1,4 @@
-@products
+@products @severity_critical
 Feature: Patch Product
 
    As a user

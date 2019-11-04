@@ -1,4 +1,4 @@
-@stores
+@stores @severity_critical
 Feature: Delete Stores
 
    As a user

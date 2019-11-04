@@ -1,4 +1,4 @@
-@stores
+@stores @severity_blocker
 Feature: Create Stores
 
    As a user

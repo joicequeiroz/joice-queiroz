@@ -1,4 +1,4 @@
-@services
+@services @severity_critical
 Feature: Delete Services
 
    As a user

@@ -1,4 +1,4 @@
-@services
+@services @severity_blocker
 Feature: Create Services
 
    As a user

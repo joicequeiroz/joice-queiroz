@@ -1,4 +1,4 @@
-@utilities
+@utilities @severity_major
 Feature: Check Health
 
    As a user

@@ -1,4 +1,4 @@
-@products
+@products @severity_major
 Feature: Get Product
 
    As a user

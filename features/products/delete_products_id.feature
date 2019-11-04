@@ -1,4 +1,4 @@
-@products
+@products @severity_critical
 Feature: Delete Product
 
    As a user

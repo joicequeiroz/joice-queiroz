@@ -1,4 +1,4 @@
-@categories
+@categories @severity_blocker
 Feature: Create Categories
 
    As a user

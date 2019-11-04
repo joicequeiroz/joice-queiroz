@@ -1,4 +1,4 @@
-@stores
+@stores @severity_major
 Feature: Get Stores
 
    As a user
