@@ -6,5 +6,6 @@ Given("I get endpoint from a products {string}") do |api|
                                                                                
   When("I send the GET verb to search a product") do                           
     $response = HTTParty.get("http://localhost:3030/products/#{@id}", headers: @header)
-    puts $response.body
+    @body = $response.parsed_response["id"]
+    expect(@body).to eql(@id)
   end

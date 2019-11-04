@@ -28,3 +28,31 @@ end
 When("I send the POST verb in the stores") do
   $response = HTTParty.post("http://localhost:3030/stores", body: @body, headers: @header)
 end
+
+When("I send the POST verb in the stores without data") do
+  @body = {
+    'name': nil,
+    'type': nil,
+    'address': nil,
+    'city': nil,
+    'state': nil,
+    'zip': nil
+  }.to_json
+  $response = HTTParty.post("http://localhost:3030/stores", body: @body, headers: @header)
+end
+
+When("I send the POST verb in the stores with negative values for string fields") do
+  @body = {
+    'name': 123456,
+    'type': @type,
+    'address': @address,
+    'city': @city,
+    'state': @state,
+    'zip': @zip,
+  }.to_json
+  $response = HTTParty.post("http://localhost:3030/stores", body: @body, headers: @header)
+end
+
+When("I send the POST verb in the stores without body") do
+  $response = HTTParty.post("http://localhost:3030/stores", headers: @header)
+end

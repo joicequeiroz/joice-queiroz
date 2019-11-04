@@ -7,14 +7,42 @@ Given("I get endpoint from all products {string}") do |api|
     $response = HTTParty.get("http://localhost:3030/products", headers: @header)
   end
 
+  Then("I will see the array by products {string}") do |_array|
+    @body = $response.parsed_response["data"]
+    @body.each do |array|
+      case array["name"]
+      when "Incredible Leather Lamp"
+        puts array
+      end
+    end
+  end
+
   When("I send the GET verb in the by highest priced products") do
     $response = HTTParty.get("http://localhost:3030/products?$sort[price]=-1", headers: @header)
-      puts $response.body
+  end
+
+  Then("I will see the array by highest priced {string}") do |_array|
+    @body = $response.parsed_response["data"]
+    @body.each do |array|
+      case array["name"]
+      when "Incredible Leather Lamp"
+        puts array
+      end
+    end
   end
 
   When("I send the GET verb in the products name and description only") do
     $response = HTTParty.get("http://localhost:3030/products?$select[]=name&$select[]=description", headers: @header)
-      puts $response.body
+  end
+  
+  Then("I will see the array by product name{string}") do |_array|
+    @body = $response.parsed_response["data"]
+    @body.each do |array|
+      case array["name"]
+      when "Incredible Leather Lamp"
+        puts array
+      end
+    end
   end
 
   When("I send the GET verb in the products with price") do

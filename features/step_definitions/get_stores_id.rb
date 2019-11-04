@@ -4,8 +4,9 @@ Given("I get endpoint from a stores {string}") do |api|
     @header = { 'Content-Type': "application/json" }
   end                                                                          
                                                                                
-  When("I send the GET verb to research a stores") do                                 
+  When("I send the GET verb to research a stores") do
     $response = HTTParty.get("http://localhost:3030/stores/#{@id}", headers: @header)
+    puts $response.body
     @verify_id = $response.parsed_response["id"]
     expect(@verify_id).to eql(@id)
   end

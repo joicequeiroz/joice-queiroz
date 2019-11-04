@@ -7,7 +7,7 @@ Feature: Get Stores
 
    Background: Endpoint
       Given I get endpoint from a stores "/stores"
-
-   Scenario: Research Stores
+   @doing
+   Scenario: Research a stores
       When I send the GET verb to research a stores
       Then will be returned status code "200" and a message "OK"

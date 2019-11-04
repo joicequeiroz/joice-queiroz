@@ -11,3 +11,4 @@ Feature: Research all Services
    Scenario: Research all services
       When I send the GET verb in research all services
       Then will be returned status code "200" and a message "OK"
+      And I will see the array by services "Geek Squad Services"

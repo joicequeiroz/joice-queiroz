@@ -10,7 +10,7 @@ Feature: Create Product
 
    Scenario: Create a new product
       When I send the POST verb in the products
-      Then will be returned status code "201" and a message "Created"
+      Then will be returned status code "200" and a message "OK"
 
    Scenario: Creating a product without data for mandatory fields
       When I send the POST verb in the products without data

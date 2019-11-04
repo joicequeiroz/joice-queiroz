@@ -96,22 +96,31 @@ Utilities
   * Update a products
   * Delete a products
 * **Stores**
-  * Create a stores
-  * Get all Stores
-  * Find stores in Minnesota
-  * Find stores that sell Apple products
-  * Find Stores Within ten Miles of Beverly Hills
-  * Search a stores
+  * Create a new store
+  * Creating a stores without data for mandatory fields
+  * Creating a stores with negative values for string fields
+  * Creating a stores without body
+  * Research all Stores
+  * Research the stores in Minnesota
+  * Research the stores that sell Apple products
+  * Research the stores Within ten Miles of Beverly Hills
+  * Research a stores **Flaky
   * Update a stores
   * Delete a stores
 * **Services**
-  * Create a services
+  * Create a new service
+  * Creating a services without data for mandatory fields
+  * Creating a services with negative values for string fields
+  * Creating a services without body
   * Research all services
   * Research Services per ID
   * Update a services
   * Delete a services
 * **Categories**
-  * Create a categories
+  * Create a new category
+  * Creating a categories without data for mandatory fields
+  * Creating a categories with negative values for string fields
+  * Creating a categories without body
   * Research all categories
   * Research categories by name
   * Research categories with TV in the name
@@ -120,11 +129,12 @@ Utilities
 * **Utilities**
   * Check API version
   * Check Health
+
 ### Bugs found
 Test Case | Expected Results | Actual Results | Severity
 --- | --- | --- | ---
-Create a new product | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
-Create a stores | The system will be show status code equal "200" | The system has shown status code equal "201" | Major  | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
-Create a services | The system will be show status code equal "200" | The system has shown status code equal "201" | Major 
-Create a categories | The system will be show status code equal "200" | The system has shown status code equal "201" | Major
-Get categories by name | The system will be show the categories by name | The system has shown status code equal "500" | **Blocker**
+Create a new product | According to the documentation, the system will show status code equal "200" | The system has demonstrated status code identical "201" | Major 
+Create a new store | According to the documentation, the system will show status code equal "200" | According to the documentation, the  system has demonstrated status code equal "201" | Major  | The system will show status code identical "200" | The system has demonstrated status code identical "201" | Major 
+Create a new service | According to the documentation, the system will show status code equal "200" | The system has demonstrated status code identical "201" | Major 
+Create a new category| According to the documentation, the system will show status code equal "200" | The system has demonstrated status code equal "201" | Major
+Get categories by name | According to the documentation, the system will be shown the categories by name | The system has demonstrated status code equal "500" | **Blocker**

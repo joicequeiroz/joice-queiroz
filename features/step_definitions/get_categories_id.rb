@@ -6,4 +6,6 @@ end
 
 When("I send the GET verb to search a categories") do
     $response = HTTParty.get("http://localhost:3030/categories/#{@id}", headers: @header)
+    @body = $response.parsed_response["id"]
+    expect(@body).to eql(@id)
 end
